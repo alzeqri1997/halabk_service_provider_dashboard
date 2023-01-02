@@ -1,0 +1,31 @@
+/*******************************
+*** JOURNEY DETAILS STYLE - START ***/
+
+.journey-details {
+  margin-bottom: 20px;
+
+  &__heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 18px;
+    border-bottom: 1px solid $light-color;
+  }
+
+  &__body {
+    padding: 15px 18px;
+    display: flex;
+    width: 100%;
+    gap: 14px;
+
+    img {
+      width: 96px;
+      height: 96px;
+      border-radius: 18px;
+      object-fit: cover;
+    }
+  }
+}
+
+/*** JOURNEY DETAILS STYLE - END ***
+********************************/

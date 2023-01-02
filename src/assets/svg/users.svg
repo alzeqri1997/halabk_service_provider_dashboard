@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="vuesax_twotone_people" data-name="vuesax/twotone/people" transform="translate(-620 -252)">
+    <g id="people" transform="translate(620 252)">
+      <path id="Vector" d="M4.45,8.6a1.009,1.009,0,0,0-.317,0,4.308,4.308,0,1,1,.317,0Z" transform="translate(25.546 3.333)" fill="none" stroke="#fed029" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Vector-2" data-name="Vector" d="M.05,8.234a9.391,9.391,0,0,0,6.567-1.2c2.35-1.567,2.35-4.133,0-5.7A9.45,9.45,0,0,0,0,.15" transform="translate(28.229 15.833)" fill="none" stroke="#fed029" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Vector-3" data-name="Vector" d="M4.15,8.6a1.009,1.009,0,0,1,.317,0,4.308,4.308,0,1,0-.317,0Z" transform="translate(5.796 3.333)" fill="none" stroke="#fed029" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Vector-4" data-name="Vector" d="M8.329,8.234a9.391,9.391,0,0,1-6.567-1.2c-2.35-1.567-2.35-4.133,0-5.7A9.45,9.45,0,0,1,8.379.15" transform="translate(3.333 15.833)" fill="none" stroke="#fed029" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <g id="Group" transform="translate(13.387 15.783)">
+        <path id="Vector-5" data-name="Vector" d="M4.45,8.6a1.009,1.009,0,0,0-.317,0,4.308,4.308,0,1,1,.317,0Z" transform="translate(2.163)" fill="none" stroke="#5d3ebd" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Vector-6" data-name="Vector" d="M1.762,1.325c-2.35,1.567-2.35,4.133,0,5.7a9.462,9.462,0,0,0,9.7,0c2.35-1.567,2.35-4.133,0-5.7A9.539,9.539,0,0,0,1.762,1.325Z" transform="translate(0 12.525)" fill="none" stroke="#5d3ebd" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <path id="Vector-7" data-name="Vector" d="M0,0H40V40H0Z" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>

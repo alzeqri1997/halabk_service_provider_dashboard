@@ -1,0 +1,82 @@
+//  ================================================================================================
+//  ? TIP:  It is recommended to use this file for overriding bootstrap variables.
+//  ================================================================================================
+
+// Color system
+
+$white: #ffffff !default;
+
+$gray-50: #f6f6f6 !default;
+$gray-100: #babfc7 !default; // $gray-lightest
+$gray-200: #ededed !default; // $gray-lighter
+$gray-300: #dae1e7 !default; // $gray-light
+$gray-400: #636363 !default;
+$gray-500: #adb5bd !default;
+$gray-600: #b8c2cc !default; // $gray
+$gray-700: #4e5154 !default;
+$gray-800: #1e1e1e !default; // $gray-dark
+$gray-900: #2a2e30 !default;
+$black: #22292f !default; // 231f48 22292f
+
+$purple: #00C0F3 !default; //$primary
+$green: #34C9C9 !default; //$success
+$blue: #0079F2 !default; //$info
+$orange: #faa61a !default; //$warning
+$red: #e54126 !default; //$danger
+
+// $primary: $purple !default;
+// $secondary: #7650E0 !default;
+
+$success:#0db14b !default;
+$info: #00c0f3 !default;
+$warning:#faa61a!default;
+$danger: #e54126  !default;
+
+$light: #EDF0F5 !default;
+$dark: #4b4b4b !default;
+
+
+$body-bg: #F7F8FA !default;
+$body-color: #6e6b7b !default;
+
+
+
+//dark theme
+
+//Body
+$theme-dark-body-bg: #161d31 !default;
+$theme-dark-body-color: #b4b7bd !default;
+$theme-dark-border-color: #3b4253 !default;
+$theme-dark-custom-control-border-color: #44405e !default;
+
+//Typography
+$theme-dark-headings-color: #d0d2d6 !default;
+$theme-dark-label-color: #d0d2d6 !default;
+$theme-dark-text-muted-color: #676d7d !default;
+
+//Card
+$theme-dark-card-bg: #171E48 !default;
+$theme-dark-box-shadow: 0 4px 24px 0 rgba($black, 0.24);
+
+//Input
+$theme-dark-input-bg: #171E48 !default;
+$theme-dark-input-placeholder-color: #676d7d !default;
+$theme-dark-input-border-color: #404656 !default;
+$theme-dark-input-disabled-bg: #24233a !default;
+$theme-dark-input-disabled-border-color: #444b60 !default;
+
+// Switch
+$theme-dark-switch-bg: #545a6a;
+$theme-dark-switch-bg-disabled: #1b2337;
+
+//Table
+$theme-dark-table-bg: #171E48 !default;
+$theme-dark-table-header-bg: #343d55 !default;
+$theme-dark-table-row-bg: #171E48 !default;
+$theme-dark-table-hover-bg: #242b3d !default;
+$theme-dark-table-striped-bg: #242b3d !default;
+
+$theme-dark-modal-header-bg: #161d31 !default;
+$theme-dark-pagination-bg: #242b3d !default;
+$theme-dark-chart-bg: #384056 !default;
+$theme-dark-widget-bg: #384056 !default;

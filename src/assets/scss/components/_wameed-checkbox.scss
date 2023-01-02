@@ -1,0 +1,41 @@
+/****************************
+*** start checkbox  style ***
+*****************************/
+
+.wameed-checkbox {
+  .custom-control-label {
+    &::before {
+      border-color: $light-color;
+      background-color: $light-color;
+      border-radius: 8px;
+      height: 26px;
+      width: 26px;
+
+      &:active,
+      &:focus,
+      &:hover {
+        border-color: $light-color;
+        border-radius: 8px;
+        height: 26px;
+        width: 26px;
+      }
+    }
+    &::after {
+      border-radius: 8px;
+      height: 26px;
+      width: 26px;
+    }
+  }
+}
+
+/**************************
+*** end checkbox  style ***
+***************************/
+
+// terms and conditions checkbox
+.terms-and-conditions {
+  label {
+    margin: 0 10px;
+    line-height: 25px;
+  }
+}

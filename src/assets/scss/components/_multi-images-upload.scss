@@ -1,0 +1,152 @@
+/*****************************************
+*** MULTI IMAGES COMPONENT STYLE - START  ***
+******************************************/
+.multi-images-upload {
+  .imgsPreview {
+    &__imgs {
+      display: flex;
+      gap: 16px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+  }
+
+  .drop {
+    width: 116px;
+    height: 116px;
+    top: 0;
+    border-radius: 10px;
+    position: absolute;
+    display: none;
+    background-color: rgba(237, 240, 245, 0.4);
+    left: 0;
+    border: 3px dashed #bac1cc;
+  }
+
+  .error {
+    text-align: center;
+    color: red;
+    font-size: 15px;
+  }
+
+  .beforeUpload {
+    text-align: center;
+  }
+
+  .beforeUpload input {
+    width: 116px;
+    height: 116px;
+    position: absolute;
+    margin: auto;
+    opacity: 1;
+    display: none;
+  }
+
+  .beforeUpload input:hover {
+    cursor: pointer;
+  }
+
+  .beforeUpload .icon {
+    width: 150px;
+    margin: auto;
+    display: block;
+  }
+
+  .imgsPreview .imageHolder {
+    width: 116px;
+    height: 116px;
+    background: #fff;
+    position: relative;
+    border-radius: 8px;
+
+    overflow: hidden;
+  }
+
+  .imgsPreview .imageHolder img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  .imgsPreview .imageHolder .delete {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 24px;
+    height: 24px;
+    color: white;
+    background: $alert-error !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+  }
+
+  .imgsPreview .imageHolder .delete:hover {
+    cursor: pointer;
+  }
+
+  .imgsPreview .imageHolder .delete .icon {
+    width: 12px;
+    height: 12px;
+  }
+
+  .imgsPreview .fileHolder {
+    position: relative;
+    color: #bac1cc;
+    background: $light-color;
+    border-radius: 8px;
+    height: 116px !important;
+    width: 116px !important;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+
+    .delete {
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      width: 24px;
+      height: 24px;
+      color: white;
+      background: $alert-error !important;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 8px;
+    }
+  }
+
+  .imgsPreview .plus {
+    color: #bac1cc;
+    background: rgba(237, 240, 245, 0.4);
+    border-radius: 8px;
+    height: 116px !important;
+    width: 116px !important;
+    border: 1px dashed #bac1cc;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .plus:hover {
+    cursor: pointer;
+  }
+
+  .clearButton {
+    color: #2d3748;
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+}
+/*****************************************
+*** MULTI IMAGES COMPONENT STYLE - END  ***
+******************************************/

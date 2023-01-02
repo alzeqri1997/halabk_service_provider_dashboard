@@ -1,0 +1,6 @@
+<svg id="notification-bing" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <path id="Vector" d="M0,0V4.157" transform="translate(15 8.052)" fill="none" stroke="#bac1cc" stroke-linecap="round" stroke-width="2" opacity="0.4"/>
+  <path id="Vector-2" data-name="Vector" d="M11.151,0A8.319,8.319,0,0,0,2.823,8.315v2.622a6.474,6.474,0,0,1-.788,2.847L.447,16.43a2.661,2.661,0,0,0,1.5,4.058,29.233,29.233,0,0,0,18.42,0,2.77,2.77,0,0,0,1.5-4.058L20.28,13.783a6.521,6.521,0,0,1-.788-2.847V8.315A8.37,8.37,0,0,0,11.151,0Z" transform="translate(3.874 2.497)" fill="none" stroke="#bac1cc" stroke-linecap="round" stroke-width="2"/>
+  <path id="Vector-3" data-name="Vector" d="M8.315,0A4.172,4.172,0,0,1,4.157,4.157,4.165,4.165,0,0,1,1.224,2.934,4.165,4.165,0,0,1,0,0" transform="translate(10.843 23.533)" fill="none" stroke="#bac1cc" stroke-width="2" opacity="0.4"/>
+  <path id="Vector-4" data-name="Vector" d="M0,0H30V30H0Z" fill="none" opacity="0"/>
+</svg>

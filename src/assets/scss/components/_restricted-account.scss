@@ -1,0 +1,17 @@
+#restricted-account-card {
+  max-width: 453px;
+  padding: 25px;
+}
+
+.interest-card {
+  min-height: 112px;
+  width: 106px;
+  background-color: $bg-color;
+  border-radius: 8px;
+  margin: 8px;
+  cursor: pointer;
+
+  .interest-image {
+    filter: grayscale(100%);
+  }
+}

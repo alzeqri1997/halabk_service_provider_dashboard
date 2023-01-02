@@ -1,0 +1,70 @@
+/*****************************
+*** start Auth page  style ***
+******************************/
+//auth page
+$auth-1-inner-max-width: 400px !default;
+
+.auth-wrapper {
+  display: flex;
+  flex-basis: 100%;
+  min-height: 100vh;
+  min-height: calc(var(--vh, 1vh) * 100);
+  width: 100%;
+
+  .auth-inner {
+    width: 100%;
+    position: relative;
+    height: 100vh;
+    overflow-y: auto;
+    height: calc(var(--vh, 1vh) * 100);
+  }
+
+  .login-bg {
+    background-color: $main-color;
+    overflow-x: hidden;
+    div {
+      z-index: 0;
+    }
+    .login-svg1,
+    .login-svg2,
+    .login-svg3 {
+      position: absolute;
+      opacity: 0.1;
+    }
+
+    .login-svg1 {
+      top: -160px;
+      left: -30%;
+    }
+    .login-svg1:lang(en),
+    .login-svg2:lang(en),
+    .login-svg3:lang(en) {
+      // transform: rotate(180deg);
+      transform: scaleX(-1) !important;
+    }
+
+    .login-svg2 {
+      top: -50px;
+      right: -10%;
+    }
+
+    .login-svg3 {
+      bottom: 50px;
+      right: -15%;
+    }
+  }
+}
+
+.auth-wrapper .auth-bg {
+  background-color: $white;
+}
+
+.dark-layout {  
+  .auth-wrapper .auth-bg {
+    background-color: $theme-dark-card-bg;
+  }
+}
+
+/*****************************
+*** end Auth page  style ***
+******************************/

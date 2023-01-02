@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="vuesax_broken_gallery-add" data-name="vuesax/broken/gallery-add" transform="translate(-748 -252)">
+    <g id="gallery-add" transform="translate(748 252)">
+      <path id="Vector" d="M2.512,0A2.512,2.512,0,1,0,5.024,2.512" transform="translate(8.742 7.493)" fill="none" stroke="#bac1cc" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Vector-2" data-name="Vector" d="M0,3.755V6.28c0,6.28,2.5,8.791,8.742,8.791h7.493c6.244,0,8.742-2.512,8.742-8.791V0" transform="translate(2.512 12.417)" fill="none" stroke="#bac1cc" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Vector-3" data-name="Vector" d="M13.815,0H8.791C2.512,0,0,2.512,0,8.791" transform="translate(2.512 2.512)" fill="none" stroke="#bac1cc" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Vector-4" data-name="Vector" d="M0,0H6.908" transform="translate(19.639 6.25)" fill="none" stroke="#bac1cc" stroke-linecap="round" stroke-width="1.5"/>
+      <path id="Vector-5" data-name="Vector" d="M0,6.908V0" transform="translate(23.125 2.826)" fill="none" stroke="#bac1cc" stroke-linecap="round" stroke-width="1.5"/>
+      <path id="Vector-6" data-name="Vector" d="M0,8.732,6.155,4.575a2.8,2.8,0,0,1,3.3.176l.412.364a2.771,2.771,0,0,0,3.521,0L18.579.631a2.771,2.771,0,0,1,3.521,0l2.035,1.758" transform="translate(3.353 14.968)" fill="none" stroke="#bac1cc" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Vector-7" data-name="Vector" d="M0,0H30V30H0Z" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>

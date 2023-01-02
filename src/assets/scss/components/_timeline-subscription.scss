@@ -1,0 +1,35 @@
+/*******************************
+*** TIMELINE-SUBSCRIPTION COMPONENT STYLE - START ***
+********************************/
+.timeline-subscription {
+  display: flex;
+  column-gap: 121px;
+  row-gap: 20px;
+  flex-wrap: wrap;
+  padding: 20px 26px;
+  margin-bottom: 26px;
+
+  @include breakpoint(885px) {
+    row-gap: 10px;
+    padding: 20px 15px;
+  }
+
+  &-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    @include breakpoint(885px) {
+      gap: 8px;
+    }
+    .icon-container {
+      width: 48px;
+      height: 48px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+/*******************************
+*** TIMELINE-SUBSCRIPTION COMPONENT STYLE - END ***
+********************************/

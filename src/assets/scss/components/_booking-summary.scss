@@ -1,0 +1,37 @@
+/*******************************
+*** BOOKING SUMMARY STYLE - START ***
+********************************/
+.booking-summary {
+  margin-bottom: 20px;
+
+  &__heading {
+    padding: 15px 18px;
+    border-bottom: 1px solid $light-color;
+  }
+
+  &__body {
+    padding: 15px 18px;
+
+    &--section {
+      &:not(:last-child) {
+        border-bottom: 2px solid #f8f9fb;
+      }
+
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    li::marker {
+      font-size: 25px;
+      color: $secondary-color;
+    }
+
+    .booking-list {
+      padding-left: 18px;
+    }
+  }
+}
+
+/*******************************
+*** BOOKING SUMMARY STYLE - END ***
+********************************/

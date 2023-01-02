@@ -1,0 +1,21 @@
+body {
+  background-color: $bg-color !important;
+  @include breakpoint-down('xs') {
+    font-size: 0.9rem;
+  }
+}
+
+iframe {
+  border: none;
+}
+
+/*************************************
+*** end controlPanel layout  style ***
+*************************************/
+
+#signup-nav {
+  background-image: url('../images/pattern_1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100px;
+}

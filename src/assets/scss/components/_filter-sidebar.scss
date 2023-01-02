@@ -1,0 +1,101 @@
+/*********************************
+*** start filter sidebar style ***
+**********************************/
+
+#wameed-filter-modal {
+  .modal-dialog {
+    width: 400px;
+    //   right: -400px;
+    padding: 0;
+    background-color: $white;
+    z-index: 1051;
+    position: fixed;
+    top: 0;
+    right: 0px;
+    bottom: 0;
+    height: 100vh !important;
+    max-height: 100vh !important;
+    margin: 0px;
+    //   height: calc(var(--vh, 1vh) * 100);
+    transition: right 0.4s cubic-bezier(0.05, 0.74, 0.2, 0.99);
+    backface-visibility: hidden;
+    border-left: 1px solid rgba($black, 0.05);
+
+    .modal-header {
+      background-color: transparent;
+      border-bottom: 1px solid #e0e4ec;
+      padding: 22px 26px;
+      align-items: center;
+
+      .modal-title {
+        font-size: 20px;
+        color: #4c535f;
+        font-family: inherit;
+      }
+
+      .close {
+        margin: 0px;
+        transform: none;
+        box-shadow: none;
+        background-color: $body-bg;
+        // font-weight: 300;
+        line-height: 12px;
+        // font-size: 30px;
+        width: 30px;
+        height: 30px;
+        padding: 0px;
+        border-radius: 8px;
+        color: #8d98aa;
+        border: 1.5px solid $font-sub-color !important;
+      }
+    }
+
+    .modal-content {
+      height: 100%;
+      max-height: 100vh !important;
+    }
+
+    .modal-body {
+      padding: 16px 0px;
+
+      .collapse-margin {
+        .card {
+          background-color: #f9fafb !important;
+          box-shadow: none !important;
+          margin: 16px 0px;
+
+          .collapse-title {
+            font-size: 16px; 
+            color: $font-main-color;
+          }
+
+          .card-header {
+            padding: 20px 26px;
+          }
+
+          [data-toggle='collapse']:after {
+            right: 32px;
+            background-size: 19px;
+          }
+        }
+      }
+
+      .dark-layout & {
+        border-color: $theme-dark-border-color;
+      }
+    }
+
+    .modal-footer {
+      padding: 16px 17px;
+
+      .applyBtn {
+        min-width: 176px;
+        min-height: 56px;
+      }
+    }
+  }
+}
+
+/*******************************
+*** end filter sidebar style ***
+*******************************/

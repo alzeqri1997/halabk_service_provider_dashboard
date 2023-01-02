@@ -1,0 +1,57 @@
+.map-container {
+  position: relative;
+  min-height: 356px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+  border: 1px dashed $input-color;
+  cursor: pointer;
+  margin-bottom: 50px;
+}
+
+.gmap-container {
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  gap: 18px;
+  top: 20px;
+  width: 100%;
+  padding: 0 20px;
+
+  .current-location {
+    cursor: pointer;
+    padding: 16px 20px;
+    svg {
+      margin: 0 10px;
+    }
+  }
+  .input {
+    flex-grow: 1;
+    position: relative;
+    input {
+      width: 100%;
+      border: unset;
+      padding: 16px 15px;
+      &::placeholder {
+        color: $icon-color;
+      }
+    }
+    .search-icon {
+      background-color: unset;
+      border: unset;
+      position: absolute;
+      top: 16px;
+      right: 15px;
+    }
+  }
+}
+
+.vue-map {
+  border-radius: 8px !important;
+}
+.pac-container{
+  z-index: 1000000 !important;
+}

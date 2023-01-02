@@ -1,0 +1,66 @@
+.navbar-sticky {
+  .app-content {
+    padding: calc(1rem + 7rem) 2.5rem 0 2.5rem !important;
+    @include breakpoint-down('sm') {
+      padding: calc(1.5rem + 4.5rem) 1rem 0 1rem !important;
+    }
+    @include breakpoint-down('xs') {
+      padding: calc(2rem + 4.5rem) 0.7rem 0 0.7rem !important;
+    }
+
+    .section-heading {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+
+      &__title {
+        color: $font-main-color;
+      }
+
+      &__sub-title {
+        color: $font-secondary-color;
+      }
+
+      &__button {
+        background-color: $main-color;
+        padding: 16px 14px;
+        border-radius: 14px;
+        color: $white-color;
+        border: unset;
+      }
+    }
+
+    .content-wrapper {
+      display: flex;
+      flex-direction: column;
+      min-height: calc(100vh - 9rem);
+
+      .content-header {
+        flex: 0;
+      }
+
+      .content-body {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+
+        .wameed-dashboard-page-content {
+          padding-top: 20px;
+          flex: 1;
+          min-height: 100%;
+          display: flex;
+          flex-direction: column;
+
+          &_header {
+            flex: 0;
+          }
+
+          &_body {
+            flex: 1;
+          }
+        }
+      }
+    }
+  }
+}

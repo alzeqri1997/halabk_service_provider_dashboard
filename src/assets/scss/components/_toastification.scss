@@ -1,0 +1,35 @@
+/*****************************************
+*** start notification messages  style ***
+******************************************/
+
+.Vue-Toastification__toast--default.success-class {
+  background-color: $success-color;
+  border-radius: 12px;
+  padding: 12px;
+}
+
+.Vue-Toastification__toast--default.fail-class {
+  background-color: $danger-color;
+  border-radius: 12px;
+  padding: 12px;
+}
+
+.toastification-close-icon {
+  border-radius: 4px;
+  height: 28px;
+  width: 28px;
+  background-color: rgba($color: $white-color, $alpha: 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  svg {
+    path {
+      fill: $white-color;
+    }
+  }
+}
+
+/***************************************
+*** end notification messages  style ***
+****************************************/

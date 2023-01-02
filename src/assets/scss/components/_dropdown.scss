@@ -1,0 +1,27 @@
+/***************************
+*** start dropdown style ***
+***************************/
+
+.dropdown-menu {
+  box-shadow: 0 10px 20px rgba($color: $light-color, $alpha: 0.3) !important;
+  border: 0px;
+  border-radius: 14px;
+  overflow-x: hidden;
+
+  .dropdown-item {
+    min-height: 46px;
+    display: flex;
+    align-items: center;
+  }
+  .wameed-checkbox .custom-checkbox:hover,
+  .dropdown-item:hover,
+  .wameed-checkbox .active,
+  .dropdown-item:active,
+  li.active {
+    background-color: #fafbfc;
+  }
+}
+
+/**************************
+*** end dropdown  style ***
+***************************/

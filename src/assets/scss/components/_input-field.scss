@@ -1,0 +1,256 @@
+/*******************************
+*** start input field  style ***
+********************************/
+
+.form-group {
+  input::placeholder {
+    color: $icon-color;
+  }
+
+  &.wameed-input {
+    margin-bottom: 1.4rem;
+    border-radius: 12px;
+    &.header-search-input {
+      max-width: 526px;
+    }
+
+    &.search-form-control {
+      .form-control,
+      .input-group-text {
+        background-color: #fff !important;
+        border-color: #fff !important;
+      }
+
+      .input-group {
+        background-color: #fff !important;
+        border-radius: 14px;
+      }
+    }
+
+    &.search-form-control {
+      .b-dropdown,
+      .form-control,
+      .form-control:focus {
+        min-height: 60px;
+      }
+
+      .input-group-text,
+      .form-control {
+        background-color: #fff;
+        border: 1px solid #fff;
+      }
+    }
+
+    .append-btn .input-group-text {
+      background-color: $main-color !important;
+      color: $white-color;
+    }
+
+    .b-dropdown {
+      background-clip: padding-box;
+      border-radius: 8px;
+      height: 54px;
+
+      .dropdown-toggle {
+        padding: 0.438rem 1rem;
+        border-radius: 12px;
+      }
+    }
+  }
+
+  label {
+    font-size: inherit !important;
+    color: #4c535f !important;
+    font-family: inherit;
+    margin-bottom: 10px;
+  }
+
+  .input-group:focus-within {
+    box-shadow: unset !important;
+  }
+
+  .form-control:focus-visible {
+    text-shadow: unset !important;
+  }
+
+  .v-select {
+    width: 100%;
+
+    .vs__actions {
+      padding: 0 !important;
+
+      svg {
+        font-size: 14px;
+
+        path {
+          font-size: 14px;
+        }
+      }
+    }
+
+    .vs__selected {
+      font-family: inherit;
+      font-size: 16px;
+      min-height: 32px;
+
+      svg {
+        width: 15px;
+        height: 15px;
+        margin-left: 10px;
+        path {
+          fill: $white-color;
+        }
+      }
+    }
+
+    &:not(.vs--single) .vs__selected {
+      font-family: inherit;
+      font-size: 16px;
+      color: $white-color;
+      background-color: $icon-color;
+      border-radius: 8px;
+      padding: 0px 14px;
+      margin: 5px;
+      font-weight: 400;
+    }
+
+    .vs__dropdown-menu {
+      padding: 10px 0px;
+    }
+
+    .vs__dropdown-option--selected,
+    .vs__dropdown-option--highlight,
+    .vs__dropdown-option:hover {
+      background-color: $bg-color !important;
+      color: $font-secondary-color !important;
+    }
+
+    .vs__dropdown-option,
+    .vs__dropdown-option:hover {
+      color: $font-secondary-color !important;
+    }
+  }
+
+  .dropdown-btn-color {
+    padding: 0.438rem 1rem;
+    background-color: rgba($color: $light-color, $alpha: 0.4);
+    background-clip: padding-box;
+    border: 1px solid rgba($color: $light-color, $alpha: 0.4);
+    border-radius: 8px;
+    height: 54px;
+    box-shadow: unset !important;
+  }
+
+  .form-control,
+  .form-control:focus {
+    padding: 0.438rem 1rem;
+    background-color: rgba($color: $light-color, $alpha: 0.4) !important;
+    background-clip: padding-box;
+    border: 1px solid rgba($color: $light-color, $alpha: 0.4) !important;
+    border-radius: 8px;
+    height: 54px;
+    box-shadow: unset !important;
+
+    &::placeholder {
+      transform: translate(0px);
+      transition: all 0.2s ease;
+    }
+  }
+
+  .v-select .vs__dropdown-toggle {
+    min-height: 54px;
+    padding: 0.438rem 1rem;
+    background-color: rgba($color: $light-color, $alpha: 0.4) !important;
+    background-clip: padding-box;
+    border: 1px solid rgba($color: $light-color, $alpha: 0.4) !important;
+    border-radius: 8px;
+    box-shadow: unset !important;
+
+    .vs__deselect {
+      display: none;
+    }
+  }
+
+  .input-group-text {
+    background-color: rgba($color: $light-color, $alpha: 0.4) !important;
+    background-clip: padding-box;
+    border: 1px solid rgba($color: $light-color, $alpha: 0.4) !important;
+    border-radius: 8px;
+    border-left: 0px;
+  }
+  .input-group.is-invalid {
+    border: 1px solid $danger-color !important;
+    border-radius: 8px;
+
+    .input-group-text {
+      border: 1px solid rgba($color: $light-color, $alpha: 0.4) !important;
+    }
+  }
+  &.login-inputs {
+    .form-control,
+    .form-control:focus {
+      padding: 0.438rem 1rem;
+      height: 50px;
+      border-right: 0px;
+    }
+
+    .input-group-text,
+    .input-group-text:focus {
+      background-clip: padding-box;
+      border-left: 0px;
+    }
+  }
+}
+
+// code verification input
+.react-code-input-container {
+  width: max-content !important;
+
+  &.errorCode {
+    input {
+      background: $white-color !important;
+
+      color: $danger-color !important;
+      border: 1px solid $danger-color !important;
+    }
+  }
+
+  input {
+    height: 50px !important;
+    width: 59px !important;
+    margin: 5px;
+    box-shadow: none !important;
+    border-radius: 8px !important;
+    margin-bottom: 0 !important;
+
+    font-size: 14px;
+    line-height: 24px;
+    background-color: rgba($color: $light-color, $alpha: 0.4) !important;
+
+    color: $font-main-color !important;
+    font-family: $font-family !important;
+    border: none !important;
+    border-left: 0px;
+    border-right: 0px;
+
+    &:first-child {
+      margin-right: 5px;
+      margin-left: 0px;
+    }
+
+    &:last-child {
+      margin-left: 5px;
+      margin-right: 0px;
+    }
+  }
+
+  input:focus {
+    background-color: $white-color !important;
+    color: $main-color !important;
+    border: 1px solid $main-color !important;
+  }
+}
+
+/*****************************
+*** end input field  style ***
+******************************/

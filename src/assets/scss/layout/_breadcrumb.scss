@@ -1,0 +1,23 @@
+//breadcrumb
+
+.breadcrumb {
+  .breadcrumb-item {
+    a {
+      color: inherit;
+    }
+  }
+
+  &:not([class*='breadcrumb-']) {
+    .breadcrumb-item + .breadcrumb-item {
+      &:before {
+        content: ' / ';
+        background-image: unset !important;
+        color: $font-secondary-color;
+      }
+    }
+  }
+
+  .active {
+    color: $font-main-color !important;
+  }
+}

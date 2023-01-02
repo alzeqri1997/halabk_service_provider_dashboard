@@ -1,0 +1,32 @@
+/*******************************
+*** PACKAGE DETAILS IMAGES COMPONENT STYLE - END ***
+********************************/
+.package-details-images {
+  &__body {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+
+    &--img {
+      position: relative;
+
+      img {
+        width: 118px;
+        height: 118px;
+        border-radius: 18px;
+        object-fit: cover;
+      }
+
+      .img-badge {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        font-size: 12px;
+      }
+    }
+  }
+}
+
+/*******************************
+*** PACKAGE DETAILS IMAGES COMPONENT STYLE - END ***
+********************************/

@@ -1,0 +1,81 @@
+/*********************************
+*** start wameed-modal style ***
+**********************************/
+
+.modal {
+  @include breakpoint('1233px') {
+    padding: 0 !important;
+  }
+}
+
+// .modal-dialog {
+//   @include breakpoint('1014px') {
+//     margin: 1.75rem 3rem 0 1rem !important ;
+//   }
+// }
+
+#wameed-modal {
+  .modal-dialog {
+    margin-top: 180px;
+    // width: 400px;
+    border-radius: 14px !important;
+    background-color: $white;
+    transition: right 0.4s cubic-bezier(0.05, 0.74, 0.2, 0.99);
+
+    .modal-header {
+      background-color: transparent;
+      border-bottom: 1px solid #e0e4ec;
+      padding: 22px 26px;
+      align-items: center;
+
+      .modal-title {
+        font-size: 20px;
+        color: #4c535f;
+        font-family: inherit;
+      }
+
+      .close {
+        margin: 0px;
+        transform: none;
+        box-shadow: none;
+        background-color: $body-bg;
+        // font-weight: 300;
+        line-height: 12px;
+        // font-size: 30px;
+        width: 30px;
+        height: 30px;
+        padding: 0px;
+        border-radius: 8px;
+        color: #8d98aa;
+      }
+    }
+
+    .modal-content {
+      border-radius: 14px !important;
+    }
+
+    .modal-body {
+      padding: 60px 50px 29px 50px;
+    }
+
+    .modal-footer {
+      padding: 16px 17px;
+    }
+  }
+}
+
+/*******************************
+*** end wameed-modal style ***
+*******************************/
+.modal-lg,
+.modal-xl {
+  max-width: 1140px;
+}
+
+@media (min-width: 1200px) {
+  #wameed-modal.description-modal {
+    .modal-dialog {
+      max-width: 1000px;
+    }
+  }
+}

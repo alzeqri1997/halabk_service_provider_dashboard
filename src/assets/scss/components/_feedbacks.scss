@@ -1,0 +1,25 @@
+// FEEDBACKS - START
+.feedbacks {
+  background-color: $white-color;
+  border-radius: 14px;
+  margin-bottom: 49px;
+
+  &__header {
+    padding: 22px 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid $light-color;
+  }
+
+  &__title {
+    color: $dark-color;
+    margin-bottom: 0;
+  }
+
+  &__button {
+    color: $font-secondary-color;
+  }
+}
+
+// FEEDBACKS - END

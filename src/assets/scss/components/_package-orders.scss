@@ -1,0 +1,9 @@
+.package-orders {
+  margin-top: 26px;
+
+  &__buttons {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+}

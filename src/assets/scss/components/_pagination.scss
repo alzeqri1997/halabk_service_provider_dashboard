@@ -1,0 +1,48 @@
+/*****************************
+*** start pagination style ***
+*****************************/
+
+.pagination-container {
+  gap: 15px;
+  flex-wrap: wrap;
+  .b-pagination {
+    margin-bottom: 0;
+
+    .page-item {
+      background-color: transparent;
+    }
+
+    .page-item.active .page-link {
+      background-color: $main-color;
+    }
+
+    .page-item .page-link {
+      background-color: $white-color;
+      font-size: 16px;
+      font-family: $font-family;
+      color: $font-sub-color;
+      height: 54px;
+      width: 54px;
+      border-radius: 14px !important;
+      margin: 0px 7px;
+    }
+
+    .page-item.disabled .page-link {
+      svg {
+        path {
+          fill: rgba($color: $font-sub-color, $alpha: 0.2);
+        }
+      }
+    }
+  }
+
+  .b-dropdown .dropdown-toggle {
+    border-radius: 14px;
+    min-height: 56px;
+    margin: 0px 8px;
+  }
+}
+
+/***************************
+*** end pagination style ***
+****************************/

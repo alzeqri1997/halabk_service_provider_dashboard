@@ -1,0 +1,45 @@
+/*******************************
+*** USER INFO STYLE - START ***
+********************************/
+
+.user-info {
+  margin-bottom: 20px;
+
+  &__heading {
+    padding: 15px 18px;
+    border-bottom: 1px solid $light-color;
+  }
+
+  &__body {
+    padding: 15px 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .personal {
+      &-info {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        img {
+          width: 40px;
+          height: 40px;
+          object-fit: cover;
+        }
+      }
+
+      &-contact {
+        background-color: $light-color;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}
+/*******************************
+*** USER INFO STYLE - END ***
+********************************/

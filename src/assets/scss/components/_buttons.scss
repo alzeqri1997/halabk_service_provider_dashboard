@@ -1,0 +1,82 @@
+/***********************
+*** start btn  style ***
+************************/
+.btn {
+  &.wameed-btn:not(.btn-link) {
+    min-height: 56px;
+    min-width: 154px;
+
+    &.disabled {
+      opacity: 0.4;
+    }
+
+    &.download-btn {
+      min-height: 42px;
+      min-width: 100px;
+    }
+
+    &.medium-btn {
+      min-height: 52px;
+    }
+  }
+
+  &.login-btn {
+    height: 68px;
+    font-size: 19px;
+  }
+}
+
+/*********************
+*** end btn  style ***
+**********************/
+
+/*****************************************
+*** CUSTOM BUTTONS COMPONENT STYLE - START  ***
+******************************************/
+
+.cancel-button {
+  background-color: $light-color;
+  border-radius: 8px;
+  border: unset;
+  color: $font-sub-color;
+  padding: 18px 60px;
+}
+
+.add-button {
+  background-color: $main-color;
+  border-radius: 8px;
+  border: unset;
+  color: $white-color;
+  padding: 18px 29px;
+
+  &:disabled {
+    background-color: rgba($color: $main-color, $alpha: 0.4);
+  }
+}
+
+.single-add-button {
+  display: flex;
+  gap: 12px;
+  padding: 16px;
+  background-color: $white-color;
+  border: 1px solid $light-color;
+  border-radius: 8px;
+
+  span {
+    color: $font-secondary-color;
+    font-size: 14px;
+    font-weight: 500;
+  }
+}
+
+.button-next {
+  background-color: $main-color;
+  padding: 17px 59px;
+  color: $white-color;
+  border-radius: 10px;
+  border: unset;
+}
+
+/*****************************************
+*** CUSTOM BUTTONS COMPONENT STYLE - END  ***
+******************************************/

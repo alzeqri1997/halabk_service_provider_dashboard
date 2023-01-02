@@ -1,0 +1,31 @@
+.timeline-modal{
+    .modal-body {
+        padding: 16px 0px;
+  
+        .collapse-margin {
+          .card {
+            background-color: #f9fafb !important;
+            box-shadow: none !important;
+            margin: 16px 0px;
+  
+            .collapse-title {
+              font-size: 16px; 
+              color: $font-main-color;
+            }
+  
+            .card-header {
+              padding: 20px 26px;
+            }
+  
+            [data-toggle='collapse']:after {
+              right: 32px;
+              background-size: 19px;
+            }
+          }
+        }
+  
+        .dark-layout & {
+          border-color: $theme-dark-border-color;
+        }
+      }
+}

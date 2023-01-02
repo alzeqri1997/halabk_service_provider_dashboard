@@ -1,0 +1,24 @@
+/**********************
+*** start card  style ***
+***********************/
+.wameed-card {
+  border-radius: 14px;
+  box-shadow: none !important;
+  margin: 10px;
+
+  &.setting-card {
+    min-height: 177px;
+  }
+
+  .card-header {
+    border-bottom: 1px solid $light-color;
+  }
+
+  .card-footer {
+    border-top: 1px solid $light-color;
+  }
+}
+
+/**********************
+*** end card  style ***
+***********************/

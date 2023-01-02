@@ -1,0 +1,26 @@
+/******************************
+*** end quill editor  style ***
+*******************************/
+
+.quill-editor {
+  width: 100%;
+  background-color: $disable-color;
+  background-clip: padding-box;
+  border: 1px solid $disable-color;
+  border-radius: 8px;
+  box-shadow: unset !important;
+
+  .ql-toolbar.ql-snow {
+    border: 0px;
+    border-bottom: 1px solid $light-color;
+  }
+
+  .ql-container.ql-snow {
+    border: 0px;
+    min-height: 150px;
+  }
+}
+
+/******************************
+*** end quill editor  style ***
+*******************************/

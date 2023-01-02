@@ -1,0 +1,38 @@
+/*************************
+*** start switch style ***
+**************************/
+
+.wameed-switch.form-group .custom-control-label {
+  color: #717b8c !important;
+  margin-bottom: 0 !important;
+
+  &::before {
+    background-color: #edf0f5;
+    width: 44px !important;
+    height: 26px !important;
+  }
+
+  &::after {
+    box-shadow: none !important;
+    width: 20px !important;
+    height: 20px !important;
+    top: 3px !important;
+  }
+}
+
+.wameed-switch
+  .custom-control-input:checked
+  ~ .wameed-switch
+  .custom-control-label::before {
+  // background-color: $main-color !important;
+  left: 4px;
+}
+
+.wameed-switch .custom-control-input:checked ~ .custom-control-label::after,
+.wameed-switch .custom-control-input:active ~ .custom-control-label::after {
+  transform: translateX(1.1rem);
+}
+
+/************************
+*** end switch  style ***
+*************************/

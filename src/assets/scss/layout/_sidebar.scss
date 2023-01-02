@@ -1,0 +1,136 @@
+.menu-expanded,
+.menu-hide,
+.menu-open {
+  .navigation {
+    &:first-child {
+      overflow-y: auto;
+    }
+  }
+}
+.navbar-sticky {
+  .main-menu {
+    .navbar-header {
+      height: 7rem;
+      background: #5738b7;
+
+      .nav-link.modern-nav-toggle {
+        svg {
+          &.close-icon {
+            width: 28px;
+            height: 28px;
+
+            path {
+              fill: #fff;
+            }
+          }
+        }
+      }
+    }
+
+    .main-menu-content {
+      height: calc(100% - 7rem) !important;
+
+      background-color: $main-color;
+
+      .navigation {
+        background-color: $main-color;
+
+        > li {
+          margin-top: 7px !important;
+          margin-bottom: 7px !important;
+          min-height: 60px !important;
+
+          > a {
+            min-height: 60px !important;
+            color: $white;
+            padding: 0 10px !important;
+            margin: 0px 10px;
+
+            svg {
+              height: 25px !important;
+              width: 30px !important;
+              &:lang(en) {
+                margin-left: 8px;
+              }
+
+              &.bag-icon path {
+                fill: $white-color;
+              }
+            }
+
+            &:hover > * {
+              transition: transform 0.25s ease;
+              transform: none !important;
+            }
+
+            &:hover {
+              transition: transform 0.25s ease;
+              transform: none !important;
+              background-color: #5536b5;
+              min-height: 60px !important;
+              border-radius: 12px !important;
+            }
+          }
+
+          &.active {
+            z-index: 1;
+          }
+
+          > a.router-link-active {
+            background: $secondary-color !important;
+            box-shadow: none !important;
+
+            font-weight: 400;
+            min-height: 60px !important;
+            border-radius: 12px !important;
+
+            svg {
+              g,
+              path {
+                stroke: $main-color;
+              }
+            }
+
+            span {
+              color: $main-color;
+            }
+          }
+
+          // > a {
+          //   background: $secondary-color !important ;
+          //   box-shadow: none !important;
+
+          //   font-weight: 400;
+          //   min-height: 60px !important;
+          //   border-radius: 12px !important;
+
+          //   svg {
+          //     g,
+          //     path {
+          //       stroke: $main-color;
+          //     }
+          //   }
+
+          //   span {
+          //     color: $main-color;
+          //   }
+          // }
+          // }
+          &.company-info {
+            margin: 27px 10px !important;
+            padding: 0 10px !important;
+
+            .company-logo {
+              background-color: #fff;
+              height: 46px;
+              width: 46px;
+              border-radius: 10px;
+              object-fit: cover;
+              flex: 0 0 46px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,106 @@
+/*******************************
+*** RATES STYLE - START ***
+********************************/
+.rates {
+  &-container {
+    @include flex;
+    @include items-center;
+    @include py-4;
+    @include px-10;
+    @include mb-6;
+    gap: 30px;
+    border-radius: 14px;
+    background-color: $bg-color;
+    margin: 22px 28px;
+
+    &.gap {
+      justify-content: unset;
+      gap: 30px;
+    }
+
+    .average {
+      @include flex;
+      @include flex-col;
+      @include items-center;
+      @include justify-center;
+      @include gap-1;
+
+      .number {
+        line-height: 38px;
+      }
+    }
+  }
+
+  &-divider {
+    height: 90px;
+    width: 2px;
+    background: $light-color;
+  }
+
+  &-data {
+    .rate--item {
+      @include flex;
+      @include items-center;
+      @include gap-4;
+      line-height: 18px;
+
+      .k-progress {
+        @include gap-4;
+        @include items-center;
+        @include justify-between;
+        color: $font-main-color;
+        margin-bottom: 0;
+        font-size: 10px;
+        line-height: 18px;
+        width: 152px;
+
+        &-outer {
+          flex: 1;
+        }
+
+        &-text {
+          margin: 0;
+        }
+      }
+    }
+  }
+}
+.RateCustom {
+  @include flex;
+  @include items-center;
+  @include gap-1;
+
+  .icon {
+    width: 17px;
+    height: 17px;
+  }
+
+  .Rate__star {
+    display: flex;
+    padding: 0;
+    color: $light-color;
+
+    &.filled {
+      color: #fed029;
+    }
+
+    &.hover {
+      color: #fed029;
+    }
+
+    .icon {
+      margin: 0;
+    }
+  }
+
+  &.large {
+    .icon {
+      width: 26px;
+      height: 26px;
+    }
+  }
+}
+
+/*******************************
+*** RATES STYLE - END ***
+********************************/

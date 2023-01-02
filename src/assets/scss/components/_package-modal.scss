@@ -1,0 +1,106 @@
+/*****************************************
+*** PACKAGE MODAL COMPONENT STYLE - start  ***
+******************************************/
+.package-modal {
+  .modal-header {
+    transform: unset !important;
+    padding: 18px 20px;
+    background: unset;
+    border-bottom: 1px solid $light-color;
+
+    .close {
+      transform: unset;
+      padding: unset;
+      box-shadow: unset;
+      border-radius: 0;
+      background: unset;
+      margin: 0;
+    }
+
+    .close:hover,
+    .close:focus,
+    .close:active {
+      transform: unset !important;
+    }
+  }
+
+  [dir='rtl'] .modal-header .close:hover,
+  [dir='rtl'] .modal-header .close:focus,
+  [dir='rtl'] .modal-header .close:active {
+    transform: unset !important;
+  }
+
+  .policies {
+    padding: 18px 18px 28px 18px;
+    background-color: $light-color;
+
+    blockquote {
+      border-left: 2px solid $main-color !important;
+    }
+  }
+
+  &__container {
+    &__title {
+      color: $font-main-color;
+      margin-bottom: 10px;
+    }
+
+    &__sub-title {
+      color: $font-sub-color;
+      margin-bottom: 14px;
+    }
+
+    &__examples {
+      margin-bottom: 27px;
+      background-color: rgba($color: $light-color, $alpha: 0.4);
+      border-radius: 8px;
+      padding: 14px;
+
+      .examples-title {
+        color: $font-main-color;
+        margin-bottom: 16px;
+        position: relative;
+        padding: 0 14px;
+
+        &::after {
+          position: absolute;
+          left: 0;
+          content: '';
+          width: 4px;
+          height: 100%;
+          background-color: $main-color;
+        }
+      }
+
+      .examples-container {
+        .examples-content {
+          display: flex;
+          align-items: center;
+          gap: 5px;
+          font-size: 14px;
+
+          &__item {
+            color: $font-sub-color;
+          }
+        }
+      }
+    }
+
+    &__repeater {
+      .repeater {
+        &__form {
+          overflow: hidden;
+          transition: 0.35s height;
+        }
+      }
+    }
+  }
+
+  .modal-footer {
+    justify-content: space-between;
+  }
+}
+
+/*****************************************
+*** PACKAGE Modal COMPONENT STYLE - END  ***
+******************************************/

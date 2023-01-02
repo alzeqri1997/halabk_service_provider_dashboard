@@ -1,0 +1,160 @@
+// COMMENTS - START
+.comment {
+  &-container {
+    margin: 22px 28px;
+
+    &:not(:last-child) {
+      padding-bottom: 22px;
+      border-bottom: 1px solid $light-color;
+    }
+  }
+
+  &-user {
+    @include flex;
+    @include items-start;
+    @include justify-between;
+    @include gap-4;
+
+    &-container {
+      @include flex;
+      @include items-center;
+      @include gap-3;
+
+      @include breakpoint(470px) {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+
+    &--img {
+      width: 49px;
+      height: 49px;
+      border-radius: 10px;
+      overflow: hidden;
+
+      img {
+        width: 49px;
+        height: 49px;
+      }
+    }
+
+    &--info {
+      @include flex;
+      @include flex-col;
+      @include gap-2;
+
+      .name {
+        @include text-gray-1;
+        line-height: 24px;
+        color: #434343;
+      }
+
+      .user-details {
+        display: flex;
+        gap: 0.5rem;
+
+        .rate {
+          @include flex;
+          @include gap-2;
+          @include items-center;
+
+          .RateCustom.Rate {
+            @include flex;
+            @include items-center;
+            @include gap-1;
+
+            .icon {
+              width: 12px;
+              height: 12px;
+            }
+
+            .Rate__star {
+              display: flex;
+              padding: 0;
+              color: $light-color;
+
+              &.filled {
+                color: #fed029;
+              }
+
+              &.hover {
+                color: #fed029;
+              }
+
+              .icon {
+                margin: 0;
+              }
+            }
+          }
+        }
+
+        .time {
+          color: $font-secondary-color;
+        }
+      }
+    }
+
+    &--button {
+      color: $font-secondary-color;
+      padding: 6px 12px;
+      border-radius: 15px;
+      border: 1px solid $input-color;
+      background-color: rgba($color: $input-color, $alpha: 0.1);
+      line-height: unset;
+    }
+  }
+
+  &-info {
+    @include ml-16;
+
+    @include breakpoint(470px) {
+      margin-left: 0;
+    }
+
+    &--text {
+      @include text-gray-2;
+      @include mt-1;
+    }
+
+    &--service {
+      background-color: $bg-color;
+      padding: 6px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .right {
+        display: flex;
+        gap: 8px;
+      }
+
+      img {
+        width: 40px;
+        height: 40px;
+        border-radius: 6px;
+      }
+    }
+  }
+}
+
+// COMMENTS - END
+
+/*******************************
+*** USER COMMENT STYLE - START ***
+********************************/
+.user-comment {
+  margin-top: 20px;
+
+  &__title {
+    padding: 15px 18px;
+    border-bottom: 1px solid $light-color;
+  }
+
+  &__body {
+    padding: 15px 18px;
+  }
+}
+
+/*******************************
+*** USER COMMENT STYLE - END ***
+********************************/

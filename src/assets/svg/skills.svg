@@ -1,0 +1,10 @@
+<svg id="vuesax_linear_command" data-name="vuesax/linear/command" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="command">
+    <path id="Vector" d="M-.25-1.25H7.621a1,1,0,0,1,1,1V7.621a1,1,0,0,1-1,1H-.25a1,1,0,0,1-1-1V-.25A1,1,0,0,1-.25-1.25Zm6.871,2H.75V6.621H6.621Z" transform="translate(8.314 8.314)" fill="#0079f2"/>
+    <path id="Vector-2" data-name="Vector" d="M2.7,6.653A3.956,3.956,0,0,1-1.25,2.7V-.25a1,1,0,0,1,1-1H2.7a3.952,3.952,0,0,1,0,7.9ZM.75.75V2.7A1.952,1.952,0,1,0,2.7.75Z" transform="translate(16.379 16.379)" fill="#0079f2"/>
+    <path id="Vector-3" data-name="Vector" d="M2.7,6.653H-.25a1,1,0,0,1-1-1V2.7A3.952,3.952,0,1,1,2.7,6.653Zm-1.952-2H2.7A1.952,1.952,0,1,0,.75,2.7Z" transform="translate(16.379 2.218)" fill="#0079f2"/>
+    <path id="Vector-4" data-name="Vector" d="M5.653,6.653H2.7A3.952,3.952,0,1,1,6.653,2.7V5.653A1,1,0,0,1,5.653,6.653ZM2.7.75a1.952,1.952,0,1,0,0,3.9H4.653V2.7A1.954,1.954,0,0,0,2.7.75Z" transform="translate(2.218 2.218)" fill="#0079f2"/>
+    <path id="Vector-5" data-name="Vector" d="M2.7,6.653a3.952,3.952,0,0,1,0-7.9H5.653a1,1,0,0,1,1,1V2.7A3.956,3.956,0,0,1,2.7,6.653Zm0-5.9A1.952,1.952,0,1,0,4.653,2.7V.75Z" transform="translate(2.218 16.379)" fill="#0079f2"/>
+    <path id="Vector-6" data-name="Vector" d="M24,0H0V24H24Z" fill="none" opacity="0"/>
+  </g>
+</svg>

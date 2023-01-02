@@ -1,0 +1,75 @@
+@mixin flex {
+  display: flex;
+}
+
+@mixin items-start {
+  align-items: flex-start;
+}
+
+@mixin items-center {
+  align-items: center;
+}
+
+@mixin justify-between {
+  justify-content: space-between;
+}
+@mixin justify-center {
+  justify-content: center;
+}
+
+@mixin gap-4 {
+  gap: 1rem;
+}
+
+@mixin gap-3 {
+  gap: 0.75rem;
+}
+
+@mixin gap-2 {
+  gap: 0.5rem;
+}
+@mixin gap-1 {
+  gap: 0.25rem;
+}
+
+@mixin flex-col {
+  flex-direction: column;
+}
+
+// colors
+@mixin text-gray-1 {
+  color: #edf0f5;
+}
+
+@mixin text-gray-2 {
+  color: #8d98aa;
+}
+@mixin text-gray-3 {
+  color: #717b8c;
+}
+// margins
+@mixin mt-4 {
+  margin-top: 1rem;
+}
+@mixin mt-1 {
+  margin-top: 0.25rem;
+}
+@mixin mb-6 {
+  margin-bottom: 1.5rem; /* 24px */
+}
+@mixin mr-16 {
+  margin-right: 4rem; /* 64px */
+}
+@mixin ml-16 {
+  margin-left: 4rem; /* 64px */
+}
+
+// paddings
+@mixin py-4 {
+  padding-top: 1rem; /* 16px */
+  padding-bottom: 1rem; /* 16px */
+}
+@mixin px-10 {
+  padding-left: 2.5rem; /* 40px */
+  padding-right: 2.5rem; /* 40px */
+}

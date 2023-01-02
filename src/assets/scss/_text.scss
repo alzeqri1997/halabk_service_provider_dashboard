@@ -1,0 +1,322 @@
+@import './conversion';
+
+// font family name
+$font-family: 'Montserrat';
+
+//font family and sizes
+@font-face {
+  font-family: $font-family;
+  src: url('../fonts/Montserrat-Arabic-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: $font-family;
+  src: url('../fonts/Montserrat-Arabic-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: $font-family;
+  src: url('../fonts/Montserrat-Arabic-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: $font-family;
+  src: url('../fonts/Montserrat-Arabic-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: $font-family;
+  src: url('../fonts/Montserrat-Arabic-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+// Fonts Weights
+$font-bold: 700;
+$font-semi-bold: 600;
+$font-medium: 500;
+$font-regular: 400;
+$font-light: 300;
+
+$font-family-bold: 'sf_bold', sans-serif;
+$font-family-semi-bold: 'sf_semi-bold', sans-serif;
+$font-family-light: 'sf_light', sans-serif;
+$font-family-medium: 'sf_medium', sans-serif;
+
+// to make the needed font weight and sizes with its line high
+$font-weights: (
+  'bold': $font-bold,
+  'semi': $font-semi-bold,
+  'med': $font-medium,
+  'reg': $font-regular,
+  'light': $font-light,
+);
+
+@each $name, $weight in $font-weights {
+  .font-#{$name} {
+    font-weight: $weight;
+  }
+
+  @for $size from 8 through 50 {
+    .text-#{$name}-#{$size} {
+      font-weight: $weight;
+      font-size: $size + 0px !important;
+      @include breakpoint-down('sm') {
+        font-size: $size - 3px !important;
+      }
+
+      //bold
+      @if $weight == 700 {
+        @if $size <= 12 {
+          line-height: 24px;
+        } @else if $size <= 15 {
+          line-height: 30px;
+        } @else if $size <= 19 {
+          line-height: 36px;
+        } @else if $size <= 24 {
+          line-height: 46px;
+        } @else if $size <= 31 {
+          line-height: 50px;
+        } @else if $size <= 40 {
+          line-height: 65px;
+        } @else if $size >= 41 {
+          line-height: 80px;
+        }
+      }
+
+      //semi-bold
+      @if $weight == 600 {
+        @if $size <= 12 {
+          line-height: 24px;
+        } @else if $size <= 15 {
+          line-height: 30px;
+        } @else if $size <= 19 {
+          line-height: 36px;
+        } @else if $size <= 24 {
+          line-height: 46px;
+        } @else if $size <= 31 {
+          line-height: 50px;
+        } @else if $size <= 40 {
+          line-height: 60px;
+        } @else if $size >= 41 {
+          line-height: 65px;
+        }
+      }
+
+      //medium
+      @if $weight == 500 {
+        @if $size <= 12 {
+          line-height: 20px;
+        } @else if $size <= 15 {
+          line-height: 26px;
+        } @else if $size <= 19 {
+          line-height: 30px;
+        } @else if $size <= 24 {
+          line-height: 40px;
+        } @else if $size <= 31 {
+          line-height: 45px;
+        } @else if $size <= 40 {
+          line-height: 60px;
+        } @else if $size >= 41 {
+          line-height: 70px;
+        }
+      }
+
+      //regular
+      @if $weight == 400 {
+        @if $size <= 12 {
+          line-height: 20px;
+        } @else if $size <= 15 {
+          line-height: 26px;
+        } @else if $size <= 19 {
+          line-height: 30px;
+        } @else if $size <= 24 {
+          line-height: 40px;
+        } @else if $size <= 31 {
+          line-height: 45px;
+        } @else if $size <= 40 {
+          line-height: 55px;
+        } @else if $size >= 41 {
+          line-height: 70px;
+        }
+      }
+
+      //light
+      @if $weight == 300 {
+        @if $size <= 12 {
+          line-height: 20px;
+        } @else if $size <= 15 {
+          line-height: 26px;
+        } @else if $size <= 19 {
+          line-height: 30px;
+        } @else if $size <= 24 {
+          line-height: 36px;
+        } @else if $size <= 31 {
+          line-height: 40px;
+        } @else if $size <= 40 {
+          line-height: 55px;
+        } @else if $size >= 41 {
+          line-height: 65px;
+        }
+      }
+    }
+  }
+}
+
+// Variables
+
+// SHADOWS - START
+$shadow: 0 10px 20px rgba(#edf0f5, 0.5);
+$shadow-16: 0 10px 20px rgba(#edf0f5, 0.16);
+// SHADOWS - END
+
+//COLORS - START
+
+//added by ME
+$main-color: #5d3ebd;
+$secondary-color: #f5c000;
+
+$alert-error: #ef5350;
+$alert-success: #26a69a;
+$alert-warning: #faa61a;
+//
+$font-main-color: #4c535f;
+$font-sub-color: #717b8c;
+$font-secondary-color: #8d98aa;
+$font-secondary2-color: #e0e4ec;
+$icon-color: #bac1cc;
+$input-color: #ccd3df;
+$disable-color: #f7f8fa;
+$light-color: #edf0f5;
+$gray-color: #f7f8fa;
+$dark-color: #202020;
+
+$sub2-color: #7650e0;
+$sub-color: #00cafd;
+$bg-color: #fafbfc;
+
+$secondary2-color: #34c9c9;
+$success-color: #26a69a !default;
+$info-color: #00c0f3 !default;
+$warning-color: #faa61a !default;
+$danger-color: #ef5350 !default;
+$white-color: #ffffff !default;
+
+//COLORS - END
+
+// to make the needed font weight and sizes with its line high
+$colors: (
+  'font-main': $font-main-color,
+  'font-sub': $font-sub-color,
+  'font-secondary': $font-secondary-color,
+  'font-secondary2': $font-secondary2-color,
+  'icon': $icon-color,
+  'gray': $gray-color,
+  'input': $input-color,
+  'disable': $disable-color,
+  'light': $light-color,
+  'background': $bg-color,
+  'main': $main-color,
+  'sub2': $sub2-color,
+  'sub': $sub-color,
+  'secondary': $secondary-color,
+  'secondary2': $secondary2-color,
+  'success': $success-color,
+  'info': $info-color,
+  'warning': $warning-color,
+  'danger': $danger-color,
+  'white': $white-color,
+);
+
+@each $name, $color in $colors {
+  .svg-#{$name} {
+    path {
+      fill: $color;
+    }
+  }
+  .svg-stroke-#{$name} {
+    path {
+      stroke: $color;
+    }
+  }
+  .text-#{$name} {
+    color: $color !important;
+  }
+  .badge-#{$name},
+  .btn-#{$name} {
+    border-color: $color !important;
+    background-color: $color !important;
+  }
+  .custom-control-#{$name} {
+    .custom-control-input:checked ~ .custom-control-label::before,
+    .custom-control-input:active ~ .custom-control-label::before {
+      border-color: $color;
+      background-color: $color;
+      box-shadow: none !important;
+    }
+  }
+  .btn-flat-#{$name} {
+    color: $color;
+    background-color: transparent;
+  }
+  .btn-outline-#{$name},
+  .btn-outline-#{$name}:hover {
+    color: $color;
+    border: 1px solid $color !important;
+    background-color: #fff;
+  }
+  .badge-light-#{$name},
+  .btn-light-#{$name} {
+    background-color: rgba($color: $color, $alpha: 0.1) !important;
+    border-color: rgba($color: $color, $alpha: 0.1);
+    color: $color;
+  }
+  .btn-light-#{$name}:hover,
+  .btn-light-#{$name}:active,
+  .btn-light-#{$name}:focus {
+    background-color: rgba($color: $color, $alpha: 0.4) !important;
+    border-color: rgba($color: $color, $alpha: 0.4);
+    color: $color;
+    box-shadow: none !important;
+  }
+  .btn-#{$name}:hover,
+  .btn-#{$name}:active,
+  .btn-#{$name}:focus {
+    background-color: rgba($color: $color, $alpha: 0.8) !important;
+    border-color: rgba($color: $color, $alpha: -0.3) !important;
+    box-shadow: none !important;
+  }
+  .bg-#{$name} {
+    background-color: $color !important;
+  }
+  .bg-light-#{$name} {
+    background-color: rgba($color: $color, $alpha: 0.1);
+  }
+  .border-#{$name} {
+    border: 1px solid $color !important;
+  }
+}
+
+@for $size from 4 through 16 {
+  .rounded-#{$size} {
+    border-radius: $size + 0px;
+  }
+}
+.border-2 {
+  border-width: 2px;
+}
+
+.b-dropdown {
+  svg {
+    transition: all ease 0.3s;
+  }
+}
+
+.b-dropdown.show {
+  svg.arrow-down-icon {
+    transform: rotate(180deg);
+  }
+}

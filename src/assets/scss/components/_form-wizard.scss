@@ -1,0 +1,191 @@
+/*****************************************
+*** FORM WIZARD COMPONENT STYLE - START  ***
+******************************************/
+[dir='rtl'] .vue-form-wizard .wizard-nav {
+  padding-right: 28px !important;
+}
+
+.vue-form-wizard {
+  border-radius: 0;
+  overflow: hidden;
+
+  .wizard-navigation {
+    .wizard-progress-with-circle {
+      background-color: $light-color;
+    }
+  }
+
+  .wizard-nav {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+
+    &.wizard-nav-pills li {
+      flex: unset;
+      background-color: #fff;
+      padding-left: 48px;
+      padding-right: 48px;
+      @include breakpoint('650px') {
+        padding-left: 28px;
+        padding-right: 28px;
+      }
+      @include breakpoint('460px') {
+        padding-left: 18px;
+        padding-right: 18px;
+      }
+    }
+
+    justify-content: space-between;
+
+    .step-item {
+      flex-direction: row;
+      @include breakpoint('800px') {
+        flex-direction: column !important;
+      }
+      gap: 10px;
+    }
+
+    background-color: $white-color;
+    padding: 28px 48px;
+    background-color: $white-color;
+    padding: 28px 48px;
+    // filter: drop-shadow(0px 10px 20px rgba(237, 240, 245, 0.16));
+    box-shadow: 0 10px 20px rgba(237, 240, 245, 0.16);
+    border-radius: 14px;
+
+    li {
+      z-index: 2;
+    }
+  }
+
+  .wizard-tab-content {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+  .md.wizard-icon-circle {
+    border: 1px solid;
+    width: 28px !important;
+    height: 28px !important;
+
+    .wizard-icon {
+      font-size: 12px;
+    }
+  }
+
+  .stepTitle {
+    color: #4c535f;
+    font-weight: 400;
+    font-size: 16px;
+  }
+
+  .wizard-progress-with-circle {
+    z-index: 1;
+    top: 48px !important;
+
+    @include breakpoint('396px') {
+      display: none !important;
+    }
+  }
+
+  .active {
+    .wizard-icon-container {
+      background-color: rgba($color: $secondary-color, $alpha: 0.1) !important;
+
+      // border: 1px solid $secondary-color;
+      .wizard-icon {
+        color: $secondary-color !important;
+        font-size: 12px !important;
+      }
+    }
+  }
+
+  .checked {
+    background-color: $secondary-color !important;
+  }
+
+  .custom-checked {
+    // position: relative;
+    // overflow: hidden;
+    background-color: $secondary-color;
+    // &::before {
+    //   content: url("data:image/svg+xml; utf8, %3Csvg xmlns='http://www.w3.org/2000/svg' width='12.919' height='9.82' viewBox='0 0 12.919 9.82'%3E%3Cg id='tick' transform='translate(0.5 0.566)'%3E%3Cg id='Group_6221' data-name='Group 6221' transform='translate(0)'%3E%3Cpath id='Path_6503' data-name='Path 6503' d='M11.744,68.172a.6.6,0,0,0-.843,0l-7.14,7.14L1.017,72.568a.6.6,0,1,0-.843.843L3.34,76.576a.6.6,0,0,0,.843,0l7.561-7.561A.6.6,0,0,0,11.744,68.172Z' transform='translate(0 -67.997)' fill='%23fff' stroke='%23fff' stroke-width='1'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+    //   width: 30px;
+    //   height: 30px;
+    //   // background-color: teal;
+
+    //   position: absolute;
+    // }
+  }
+
+  .wizard-tab-container {
+    background-color: $white-color;
+    border-radius: 14px 14px 0 0;
+    padding: 22px 28px 0 28px;
+
+    .tab-title {
+      font-size: 18px;
+      color: $dark-color;
+      padding-bottom: 22px;
+      margin-bottom: 22px;
+      position: relative;
+
+      &::after {
+        content: '';
+        height: 1px;
+        position: absolute;
+        background-color: $light-color;
+        // bottom: 0;
+        // width: 100%;
+        // right: 0;
+
+        width: 104.4%;
+        bottom: 0;
+        right: -2.2%;
+      }
+    }
+
+    .custom-file {
+      height: 52px;
+
+      &-input:lang(ar) ~ &-label::after,
+      &-input:dir(rtl) ~ &-label::after {
+        content: 'إستعراض' !important;
+      }
+
+      &-input {
+        &:lang(ar) ~ .custom-file-label::after,
+        &:dir(rtl) ~ .custom-file-label::after {
+          content: 'إستعراض' !important;
+        }
+      }
+
+      &-label {
+        line-height: 29px !important;
+        color: $icon-color !important;
+        background-color: $light-color;
+        font-size: 12px !important;
+        border: unset;
+
+        &::after {
+          height: 52px !important;
+          line-height: inherit !important;
+          background-color: $main-color;
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  .wizard-card-footer {
+    border-top: 1px solid $light-color;
+    padding-top: 22px !important;
+    padding-bottom: 22px !important;
+    border-radius: 0 0 14px 14px;
+    background-color: $white-color;
+  }
+}
+
+/*****************************************
+*** FORM WIZARD COMPONENT STYLE - END  ***
+******************************************/

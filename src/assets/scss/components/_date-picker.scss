@@ -1,0 +1,42 @@
+.date-picker {
+  position: relative;
+  input {
+    cursor: pointer;
+  }
+  .calender-icon {
+    position: absolute;
+    right: 17px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 0;
+    cursor: pointer;
+  }
+  .vc-popover-content {
+    font-size: 80% !important;
+  }
+  .vc-popover-content-wrapper,
+  .vc-container {
+    * {
+      font-family: inherit !important;
+    }
+    &:lang(ar),
+    &:dir(rtl) {
+      direction: rtl !important;
+    }
+
+    border-radius: 0 0 10px 10px !important;
+    border: unset;
+
+    // .vc-weeks {
+    //   * {
+    //     font-size: 9px;
+    //   }
+    // }
+  }
+}
+.vc-arrows-container {
+  &[dir='rtl'],
+  &:lang(ar) {
+    direction: ltr;
+  }
+}

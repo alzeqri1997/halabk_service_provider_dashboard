@@ -1,0 +1,88 @@
+ <svg
+              v-if="data.field.sortable"
+              xmlns="http://www.w3.org/2000/svg"
+              width="21"
+              height="21"
+              viewBox="0 0 21 21"
+            >
+              <g
+                id="Group_133798"
+                data-name="Group 133798"
+                transform="translate(-1371 -268)"
+              >
+                <rect
+                  id="Rectangle_110456"
+                  data-name="Rectangle 110456"
+                  width="21"
+                  height="21"
+                  transform="translate(1371 268)"
+                  fill="#fff"
+                  opacity="0"
+                />
+                <g
+                  id="vuesax_twotone_frame"
+                  data-name="vuesax/twotone/frame"
+                  transform="translate(690.348 19.348)"
+                >
+                  <g id="frame" transform="translate(684 252)">
+                    <g id="Group_133546" data-name="Group 133546">
+                      <path
+                        id="Vector"
+                        d="M2.992,2.986,0,0"
+                        transform="translate(2.378 9.232)"
+                        fill="none"
+                        stroke="#bac1cc"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="1.5"
+                      />
+                      <path
+                        id="Vector-2"
+                        data-name="Vector"
+                        d="M0,0V10.132"
+                        transform="translate(5.37 2.086)"
+                        fill="none"
+                        stroke="#bac1cc"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="1.5"
+                      />
+                    </g>
+                    <g
+                      id="Group_661"
+                      data-name="Group 661"
+                      transform="translate(8.935 2.086)"
+                    >
+                      <path
+                        id="Vector-3"
+                        data-name="Vector"
+                        d="M0,0,2.992,2.986"
+                        fill="none"
+                        stroke="#bac1cc"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="1.5"
+                      />
+                      <path
+                        id="Vector-4"
+                        data-name="Vector"
+                        d="M0,10.132V0"
+                        fill="none"
+                        stroke="#bac1cc"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="1.5"
+                      />
+                    </g>
+                    <path
+                      id="Vector-5"
+                      data-name="Vector"
+                      d="M0,0H14.3V14.3H0Z"
+                      transform="translate(14.305 14.305) rotate(180)"
+                      fill="none"
+                      opacity="0"
+                    />
+                  </g>
+                </g>
+              </g>
+            </svg>
